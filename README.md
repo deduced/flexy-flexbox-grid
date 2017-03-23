@@ -1,2 +1,2 @@
 # flexy-flexbox-grid
-A very simple flexbox grid. 
+A super simple boilerplate using a flexbox-based grid. 
