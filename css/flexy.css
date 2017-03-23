@@ -11,6 +11,9 @@
 .flexy-container {
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
+    max-width: 960px;
+    box-sizing: border-box;
 }
 
 .flexy-grid {
@@ -20,10 +23,10 @@
 
 /* Columns */
 .flexy-col {
-  padding: 20px;
-  margin: 1em;
   background-color: skyblue;
   color: rgba(57, 21, 21, 1);
+  padding: 20px;
+  margin: 1em;
 }
 
 .flexy-1 {
@@ -130,6 +133,17 @@
 
 .flexy-middle {
   align-items: center;
+}
+
+.flexy-top {
+  align-items: flex-start;
+}
+.flexy-middle {
+  align-items: center;
+}
+
+.flexy-bottom {
+  align-items: flex-end;
 }
 
 .flexy-reverse {
