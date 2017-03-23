@@ -5,7 +5,7 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-
+/*@TODO - Flesh out using https://github.com/dhg/Skeleton as inspiration*/
 /* Container and Grid */
 
 .flexy-container {
@@ -145,9 +145,27 @@
 }
 
 
-/* RESIZING */
+/* MEDIA QUERIES */
+
 @media (max-width: 400px) {
   .flexy-grid {
     display: block;
   }
 }
+
+/* Mobile first queries @TODO flesh out media queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
