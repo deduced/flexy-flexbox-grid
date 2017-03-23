@@ -15,6 +15,7 @@
   padding: 20px;
   margin: 10px;
   background-color: skyblue;
+  color: rgba(57, 21, 21, 1);
 }
 
 .flexy-1 {
@@ -121,6 +122,10 @@
 
 .flexy-middle {
   align-items: center;
+}
+
+.flexy-reverse {
+  flex-direction: row-reverse;
 }
 
 .flexy-col {
