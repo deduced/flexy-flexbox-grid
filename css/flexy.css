@@ -6,18 +6,27 @@
 */
 
 /*@TODO - Flesh out using https://github.com/dhg/Skeleton as inspiration*/
-/* Container and Grid */
 
+/* container */
 .flexy-container {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
     max-width: 960px;
+    /*max-width: 1140px; */
     box-sizing: border-box;
 }
 
-.flexy-grid {
+/* Rows */
+.flexy-row {
   display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.flexy-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
   box-sizing: border-box;
 }
 
